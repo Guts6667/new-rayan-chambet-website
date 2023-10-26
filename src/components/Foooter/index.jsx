@@ -31,7 +31,7 @@ export default function Footer() {
     },
   ];
   return (
-    <footer className="bg-primary p-24 flex flex-col gap-24 md:p-[40px]">
+    <footer className="bg-primary p-24 flex flex-col gap-24 md:p-[40px] md:pl-[240px]">
       <h3>LORE</h3>
       <div className="grid grid-col md:grid-cols-3 gap-24">
         <div className="flex flex-col gap-24 md:col-span-2">

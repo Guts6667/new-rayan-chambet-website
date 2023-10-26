@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
 import Link from "next/link";
-// Install Swiper modules
 SwiperCore.use([Autoplay, Navigation, Effect]);
 
 export default function CardSlider() {
