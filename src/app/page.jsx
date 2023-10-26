@@ -9,7 +9,6 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-y-24  md:grid-cols-2  md:gap-[35px] ">
         <HomeMain />
         <CardGridHome />
-
       </div>
       <HomeContact />
     </main>

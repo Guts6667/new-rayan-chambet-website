@@ -42,6 +42,7 @@ export default function Header() {
         }`}
       >
         <Link
+          onClick={toggleMenu}
           href="/"
           className="flex justify-between content-center gap-10 w-fit px-24 py-10 rounded-xl border-transparent border-[.5px] hover:bg-[#ffffff1c;] hover:border-[#ffffff2b;] hover:scale-105 transition-all "
         >
@@ -54,6 +55,7 @@ export default function Header() {
           <span className="text-teal-300">Home</span>
         </Link>
         <Link
+          onClick={toggleMenu}
           href="/projects"
           className="flex justify-between content-center gap-10 w-fit px-24 py-10 rounded-xl border-transparent border-[.5px] hover:bg-[#ffffff1c;] hover:border-[#ffffff2b;] hover:scale-105 transition-all "
         >
@@ -66,6 +68,7 @@ export default function Header() {
           <span className="text-teal-300">Projects</span>
         </Link>
         <Link
+          onClick={toggleMenu}
           href="/about"
           className="flex justify-between content-center gap-10 w-fit px-24 py-10 rounded-xl border-transparent border-[.5px] hover:bg-[#ffffff1c;] hover:border-[#ffffff2b;] hover:scale-105 transition-all "
         >
@@ -73,6 +76,7 @@ export default function Header() {
           <span className="text-teal-300">About</span>
         </Link>
         <Link
+          onClick={toggleMenu}
           href="/contact"
           className="flex justify-between content-center gap-10 w-fit px-24 py-10 rounded-xl border-transparent border-[.5px] hover:bg-[#ffffff1c;] hover:border-[#ffffff2b;] hover:scale-105 transition-all "
         >

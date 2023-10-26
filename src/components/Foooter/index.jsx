@@ -54,7 +54,7 @@ export default function Footer() {
                 href={social.link}
                 key={index}
                 target="_blank"
-                className="bg-black p-10 rounded-full w-[40px] h-[40px] flex items-center justify-center transition-all hover:scale-105 hover:border hover:border-white"
+                className=" p-10 rounded-full w-[40px] h-[40px] flex items-center justify-center transition-all hover:scale-105 hover:border hover:border-teal-300"
               >
                 <Image
                   src={`/images/${social.icon}`}

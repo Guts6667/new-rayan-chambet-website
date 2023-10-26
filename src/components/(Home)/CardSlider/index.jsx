@@ -46,10 +46,10 @@ export default function CardSlider() {
             </Link>
           </SwiperSlide>
         ))}
-        <div className="w-full h-[25%] md:h-full bg-[#111111ba] z-50 absolute bottom-[0px] p-10 flex flex-col justify-center text-center transition-all duration-600 group-hover:bg-[#11111161] group-hover:md:h-[25%]">
-          <h3 className="">Featured Projects</h3>
+        <Link href={"/projects"} className="w-full h-[25%] md:h-full bg-[#111111ba] z-50 absolute bottom-[0px] p-10 flex flex-col justify-center text-center transition-all duration-600 group-hover:bg-[#11111161] group-hover:md:h-[25%]">
+          <h3 className="text-[28px]">Featured Projects</h3>
           <p className="text-blue-500">View all</p>
-        </div>
+        </Link>
       </Swiper>
     </div>
   );

@@ -31,6 +31,8 @@ module.exports = {
       animation: {
         "top-slide": "top-slide 0.5s ease-in-out",
         "left-slide": "left-slide 0.5s ease-in-out .6s",
+        "infinite-scroll": "infinite-scroll 60s linear infinite",
+        "infinite-scroll-reverse": "infinite-scroll-reverse 60s linear infinite",
       },
       keyframes: {
         "top-slide": {
@@ -40,6 +42,14 @@ module.exports = {
         "left-slide": {
           "0%": { transform: "translateX(-100%)", opacity: 0, display: "none" },
           "100%": { transform: "translateX(0)", opacity: 1, display: "flex" },
+        },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        "infinite-scroll-reverse": {
+          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(0)" },
         },
       },
     },
