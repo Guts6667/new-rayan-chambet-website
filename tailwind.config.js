@@ -7,15 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: {
-        "infinite-scroll": "infinite-scroll 25s linear infinite",
-      },
-      keyframes: {
-        "infinite-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
-        },
-      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -31,7 +22,7 @@ module.exports = {
         
       },
       boxShadow:{
-        shadowtransparentcard: "4px 0px 24px -1px rgba(255, 255, 255, 0.24)",
+        shadowtransparentcard: "4px 0px 24px -1px rgba(255, 255, 255, 0.24);",
       },
       borderColor:{
         bordertransparentcard: "rgba(193, 207, 231, 0.25);",

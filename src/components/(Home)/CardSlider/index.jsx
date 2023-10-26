@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import SwiperCore, { Autoplay, Navigation, Effect } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,7 +21,7 @@ export default function CardSlider() {
   ];
 
   return (
-    <div className=" cursor-pointer overflow-hidden flex flex-col min-h-[400px] bg-opacity-2 justify-center  rounded-xl  transition-all duration-600 md:row-span-2 group">
+    <div className=" cursor-pointer overflow-hidden flex flex-col min-h-[400px] bg-opacity-2 justify-center  rounded-xl  transition-all duration-600 md:row-span-2 group transition-all duration-400 hover:scale-105">
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
