@@ -33,6 +33,8 @@ module.exports = {
         "left-slide": "left-slide 0.5s ease-in-out .6s",
         "infinite-scroll": "infinite-scroll 60s linear infinite",
         "infinite-scroll-reverse": "infinite-scroll-reverse 60s linear infinite",
+        "nav-animation": "nav-animation 0.5s ease-in-out",
+         "links-animation": "nav-animaton 0.5s ease-in-out .5s",
       },
       keyframes: {
         "top-slide": {
@@ -50,6 +52,10 @@ module.exports = {
         "infinite-scroll-reverse": {
           from: { transform: "translateX(-100%)" },
           to: { transform: "translateX(0)" },
+        },
+        "nav-animation": {
+          from: { height: "0" },
+          to: { height: "fit-content" },
         },
       },
     },
