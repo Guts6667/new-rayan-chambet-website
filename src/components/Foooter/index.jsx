@@ -43,6 +43,7 @@ export default function Footer() {
         link="https://calendly.com/chambet-dev/30min"
         text="Schedule a consultation"
         icon={"arrow-right.svg"}
+        target={"_blank"}
         classBtn={"group bg-teal-400 hover:bg-none hover:bg-black "}
         classImg={"group-hover:rotate-[-45deg] transition-all duration-400"}
       />

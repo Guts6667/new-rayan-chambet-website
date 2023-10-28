@@ -10,6 +10,7 @@ export default function Header() {
     { href: "/projects", label: "Projects", icon: "icon-project.svg" },
     { href: "/about", label: "About", icon: "icon-@.svg" },
     { href: "mailto:chambet.dev@gmail.com", label: "Contact", icon: "icon-mail-nav.svg" },
+    {href: "tel:+336 44 16 77 76", label: "Phone", icon: "icon-phone.svg" }
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);

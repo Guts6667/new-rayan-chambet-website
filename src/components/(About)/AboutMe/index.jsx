@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function AboutMe() {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-24">
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-24">
       <div className="col-span-1 ">
         <p className="[&>em]:text-teal-400 [&>em]:not-italic">
           As a <em>Product Manager</em> rooted in a{" "}
