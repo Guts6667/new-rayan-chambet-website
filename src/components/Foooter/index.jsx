@@ -20,9 +20,9 @@ export default function Footer() {
       link: "mailto:chambet.dev@gmail.com",
     },
     {
-        name: "phone",
-        icon: "icon-phone.svg",
-        link: "tel:+336 44 16 77 76",
+      name: "phone",
+      icon: "icon-phone.svg",
+      link: "tel:+336 44 16 77 76",
     },
     {
       name: "blob-agency",
@@ -32,6 +32,20 @@ export default function Footer() {
   ];
   return (
     <footer className="bg-primary p-24 flex flex-col gap-24 md:p-[40px] md:pl-[240px]">
+      <h2 className="text-[48px] sm:text-[56px]">Let's work together</h2>
+      <p>
+        Are you ready to transform your digital journey into an unforgettable
+        user experience? Join forces with me, your dedicated Product Manager &
+        Software Engineer, and let's create products that captivate, engage, and
+        leave a lasting impression.
+      </p>
+      <Button
+        link="https://calendly.com/chambet-dev/30min"
+        text="Schedule a consultation"
+        icon={"arrow-right.svg"}
+        classBtn={"group bg-teal-400 hover:bg-none hover:bg-black "}
+        classImg={"group-hover:rotate-[-45deg] transition-all duration-400"}
+      />
       <h3>LORE</h3>
       <div className="grid grid-col md:grid-cols-3 gap-24">
         <div className="flex flex-col gap-24 md:col-span-2">
@@ -67,8 +81,20 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-end gap-24">
-            <Button link='/about' text='About' icon={"arrow-right.svg"} classBtn={"group  bg-black hover:scale-105  "} classImg={"group-hover:rotate-[-45deg] transition-all duration-400"} />
-            <Button link='/contact' text='Schedule a consultation' icon={"arrow-right.svg"} classBtn={"group bg-black hover:scale-105 "} classImg={"group-hover:rotate-[-45deg] transition-all duration-400"} />
+          <Button
+            link="/about"
+            text="About"
+            icon={"arrow-right.svg"}
+            classBtn={"group  bg-black hover:scale-105  "}
+            classImg={"group-hover:rotate-[-45deg] transition-all duration-400"}
+          />
+          <Button
+            link="/contact"
+            text="Schedule a consultation"
+            icon={"arrow-right.svg"}
+            classBtn={"group bg-black hover:scale-105 "}
+            classImg={"group-hover:rotate-[-45deg] transition-all duration-400"}
+          />
         </div>
       </div>
     </footer>

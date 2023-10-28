@@ -1,5 +1,4 @@
 import CardGridHome from "@/components/(Home)/CardGridHome";
-import HomeContact from "@/components/(Home)/HomeContact";
 import HomeMain from "@/components/(Home)/HomeMain";
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
         <HomeMain />
         <CardGridHome />
       </div>
-      <HomeContact />
     </main>
   );
 }
