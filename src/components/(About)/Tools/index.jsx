@@ -145,13 +145,13 @@ export default function Tools() {
           delay: 200,
           disableOnInteraction: false,
         }}
-        className="w-full h-full bg-darkgray rounded-xl transition-all duration-400 hover:scale-105 "
+        className="w-full h-fit md:h-full bg-darkgray rounded-xl transition-all duration-400 hover:scale-105 "
       >
         {tools.map((tool, index) => (
           <SwiperSlide key={index} data-swiper-autoplay="3000">
             <Link
               href={tool.link}
-              className="relative grid grid-col gap-10 w-full h-full p-24 "
+              className="relative grid grid-col gap-10 w-full  h-fit md:h-full p-24 "
             >
               <div className=" relative h-[50px] w-[50px]">
                 <Image
@@ -182,13 +182,13 @@ export default function Tools() {
           delay: 200,
           disableOnInteraction: false,
         }}
-        className="w-full h-full bg-darkgray  rounded-xl transition-all duration-400 hover:scale-105 "
+        className="w-full  h-fit md:h-full bg-darkgray  rounded-xl transition-all duration-400 hover:scale-105 "
       >
         {languages.map((language, index) => (
           <SwiperSlide key={index} data-swiper-autoplay="3000">
             <Link
               href={language.link}
-              className="relative grid grid-col  gap-10 w-full h-full p-24 "
+              className="relative grid grid-col  gap-10 w-full  h-fit md:h-full p-24 "
             >
               <div className=" relative h-[50px] w-[50px]">
                 <Image
