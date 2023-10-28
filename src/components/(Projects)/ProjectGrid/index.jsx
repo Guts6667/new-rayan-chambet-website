@@ -40,7 +40,7 @@ export default function ProjectGrid({ pictures, title, description, link }) {
         {link ? (
           <Link
             href={link}
-            className="w-full h-[25%]  bg-[#111111ba] z-50 absolute bottom-[0px] p-24 flex  justify-between items-center  transition-all duration-600 "
+            className="w-full h-[30%]  bg-[#111111ba] z-50 absolute bottom-[0px] p-24 flex  justify-between items-center  transition-all duration-600 "
           >
             <div>
               <h3 className="">{title}</h3>
@@ -60,7 +60,7 @@ export default function ProjectGrid({ pictures, title, description, link }) {
             </svg>
           </Link>
         ) : (
-          <div className="w-full h-[25%] bg-[#111111ba] z-50 absolute bottom-[0px] p-24 flex  flex-col transition-all duration-600 ">
+          <div className="w-full h-[30%] bg-[#111111ba] z-50 absolute bottom-[0px] p-24 flex  flex-col transition-all duration-600 ">
             <h3 className="">{title}</h3>
             <p className="">{description}</p>
           </div>
