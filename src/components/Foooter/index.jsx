@@ -47,7 +47,7 @@ export default function Footer() {
         classBtn={"group bg-teal-400 hover:bg-none hover:bg-black "}
         classImg={"group-hover:rotate-[-45deg] transition-all duration-400"}
       />
-      <h3>LORE</h3>
+      <h3>CONTACT INFOS</h3>
       <div className="grid grid-col md:grid-cols-3 gap-24">
         <div className="flex flex-col gap-24 md:col-span-2">
           <div>
