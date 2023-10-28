@@ -11,12 +11,12 @@ SwiperCore.use([Autoplay, Navigation, Effect]);
 
 export default function CardSlider() {
   const Images = [
-    "/images/saudiexcellence.png",
-    "/images/mbuzz.png",
-    "/images/ag-designs.png",
-    "/images/edge-dynamics.png",
+    "/images/saudiexcellence-1.png",
+    "/images/mbuzz-1.png",
+    "/images/ag-designs-1.png",
+    "/images/edge-dynamics-1.png",
     "/images/ac-ventures.png",
-    "/images/sciencesco.png",
+    "/images/sciencesco-1.png",
   ];
 
   return (
