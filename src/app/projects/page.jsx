@@ -5,7 +5,7 @@ export default function Projects() {
     {
       id: "2",
       title: "AG-Designs",
-      url: "ag-designs.art",
+      url: "https://agdesigns.art/",
       description: "Creative design and UX/UI solutions.",
       pictures: [
         "ag-designs-1.png",
@@ -40,14 +40,14 @@ export default function Projects() {
     {
       id: "3",
       title: "MBUZZ",
-      url: "mbuzzesports.com",
+      url: "https://mbuzzesports.com/",
       description: "Innovative gaming solutions and experiences.",
       pictures: ["mbuzz-1.png", "mbuzz-2.png", "mbuzz-3.png", "mbuzz-4.png"],
     },
     {
       id: "4",
       title: "Saudi Excellence Co",
-      url: "saudiexcellenceco.com",
+      url: "https://www.saudiexcellenceco.com/",
       description: "Leading technologies in security and defense.",
       pictures: [
         "saudiexcellence-1.png",

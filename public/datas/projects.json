@@ -9,28 +9,28 @@
   {
     "id": "1",
     "title": "Supporting startups like Edge Dynamics making our world safer",
-    "url": "",
+    "url": "https://www.sciences-cognitives.fr/",
     "ourClient": "Edge Dynamics aims to revolutionize the industrial sector by deploying wireless IoT devices, including temperature, vibration, humidity, and pressure sensors. Their goal is to significantly reduce the installation costs for non-critical applications through real-time data monitoring, ensuring the early detection of potential equipment failures.",
     "pictures": ["edge-dynamics.png", "Edge-Dynamics-1.png", "Edge-Dynamics-4.png", "Edge-Dynamics-6.png"]
   },
   {
     "id": "2",
     "title": "When translating simplicity to efficiency becomes an art with AG Designs",
-    "url": "ag-designs.art",
+    "url": "https://agdesigns.art/",
     "ourClient": "AG-Designs is a creative designer, a passionate UX/UI Designer. Also, behing AG-Designs is no one else than our very own Alexiane Grieu, our UX/UI Designer!",
     "pictures": ["ag-designs.png", "ag-designs-1.png", "ag-designs-3.png", "ag-designs-4.png"]
   },
   {
     "id": "3",
     "title": "MBUZZ",
-    "url": "mbuzzesports.com",
+    "url": "https://mbuzzesports.com/",
     "ourClient": "MBUZZ Esports is a division of the well-established Saudi-based company, Mbuzz Group, specializing in Industrial Communication & Technology (ICT). MBUZZ Esports leverages the expertise and network of its parent company to provide innovative gaming solutions and experiences for local enterprises and the gaming community.",
     "pictures": ["mbuzz.png", "mbuzz-2.png", "mbuzz-3.png", "mbuzz-4.png"]
   },
   {
     "id": "4",
     "title": "Saudi Excellence Co",
-    "url": "saudiexcellenceco.com",
+    "url": "https://www.saudiexcellenceco.com/",
     "ourClient": "Saudi Excellence Holding Company is part of Al-Ramez International Group, which was Established in 1991 with diversified business areas. Saudi Excellence Holding Company is one of the leading companies in the region, providing the latest technologies in the field of security and defense to Saudi Government and Enterprises in Saudi Arabia.",
     "pictures": ["saudiexcellence.png", "saudiexcellence-2.png", "saudiexcellence-3.png", "saudiexcellence-4.png"]
   }

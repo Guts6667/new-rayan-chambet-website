@@ -10,6 +10,7 @@ import Link from "next/link";
 SwiperCore.use([Autoplay, Navigation, Effect]);
 
 export default function ProjectGrid({ pictures, title, description, link }) {
+  console.log(link);
   return (
     <div className=" cursor-grab overflow-hidden flex flex-col min-h-[400px] bg-opacity-2 justify-center  rounded-xl  transition-all duration-600 md:row-span-2 group transition-all duration-400 hover:scale-105">
       <Swiper
