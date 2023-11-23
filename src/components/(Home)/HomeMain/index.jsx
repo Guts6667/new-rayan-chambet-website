@@ -8,7 +8,7 @@ export default function HomeMain() {
       <ExperiencesGrid />
       <div className=" grid gap-10 ">
         <Link
-          href="/contact"
+          href="mailto:chambet.dev@gmail.com"
           className="bg-darkgray p-24 col-span-1 justify-center flex flex-col gap-10 rounded-xl transition-all duration-400 group hover:scale-105 "
         >
           <h2>Your Trusted Blob Partner</h2>
