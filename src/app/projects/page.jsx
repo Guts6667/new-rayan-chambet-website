@@ -7,11 +7,7 @@ export default function Projects() {
       title: "AG-Designs",
       url: "https://agdesigns.art/",
       description: "Creative design and UX/UI solutions.",
-      pictures: [
-        "ag-designs-1.png",
-        "ag-designs-2.png",
-        "ag-designs-3.png",
-      ],
+      pictures: ["ag-designs-1.png", "ag-designs-2.png", "ag-designs-3.png"],
     },
     {
       id: "0",
@@ -56,13 +52,27 @@ export default function Projects() {
         "saudiexcellence-4.png",
       ],
     },
+
+    {
+      id: "5",
+      title: "Dropper by EDMC",
+      url: "https://edmc.io/",
+      description:
+        "EDMC is a platform supporting artists through innovative digital solutions.",
+      pictures: [
+        "Dropper-by-BLOB-Agency-1.png",
+        "Dropper-by-BLOB-Agency-11.png",
+        "Dropper-by-BLOB-Agency-9.png",
+        "Dropper-by-BLOB-Agency-3.png",
+      ],
+    },
   ];
 
   return (
     <main className="p-24 flex flex-col gap-[48px] pt-[140px]  md:p-[40px] md:pl-[240px]">
       <h1>All Projects</h1>
       <div className="grid grid-col sm:grid-cols-2  2xl:grid-cols-3 gap-24">
-        {datas.map((data, index) => (
+        {datas.reverse().map((data, index) => (
           <ProjectGrid
             key={index}
             pictures={data.pictures}

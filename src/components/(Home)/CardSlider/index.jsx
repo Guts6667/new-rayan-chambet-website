@@ -17,6 +17,7 @@ export default function CardSlider() {
     "/images/edge-dynamics-1.png",
     "/images/ac-ventures.png",
     "/images/sciencesco-1.png",
+    "/images/Dropper-by-BLOB-Agency-1.png",
   ];
 
   return (

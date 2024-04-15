@@ -34,4 +34,12 @@
     "ourClient": "Saudi Excellence Holding Company is part of Al-Ramez International Group, which was Established in 1991 with diversified business areas. Saudi Excellence Holding Company is one of the leading companies in the region, providing the latest technologies in the field of security and defense to Saudi Government and Enterprises in Saudi Arabia.",
     "pictures": ["saudiexcellence.png", "saudiexcellence-2.png", "saudiexcellence-3.png", "saudiexcellence-4.png"]
   }
+  ,
+  {
+    "id": "5",
+    "title": "Dropper by EDMC",
+    "url": "https://edmc.io/",
+    "ourClient": "EDMC Network is a dynamic platform in the electronic music industry, focusing on promoting electronic dance music and supporting artists through innovative digital solutions.",
+    "pictures": ["Dropper-by-BLOB-Agency-9.png", "Dropper-by-BLOB-Agency-1.png", "Dropper-by-BLOB-Agency-11.png", "Dropper-by-BLOB-Agency-3.png"]
+  }
 ]

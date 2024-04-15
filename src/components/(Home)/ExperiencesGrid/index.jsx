@@ -12,7 +12,7 @@ export default function ExperiencesGrid() {
       text: "Founder",
     },
     {
-      title: "7+",
+      title: "9+",
       text: "Satisfied Clients",
     },
 

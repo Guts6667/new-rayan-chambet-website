@@ -10,6 +10,9 @@ export default function ClientSlider() {
     "EDGE DYNAMICS",
     "MBUZZ",
     "SCIENCES CO",
+    "Dropper by EDMC",
+    "ZNOJMO FK",
+    "EDMC Network",
   ];
 
   return (
